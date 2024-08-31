@@ -1,0 +1,156 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 0 10px 0;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #302828;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.youtube-logo {
+    height: 24px;
+    margin-right: 20px;
+}
+
+.search-container {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 600px; 
+    padding: 8px 40px 8px 12px; 
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-icons img {
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff;
+    padding:  0 0 0 20px;
+    color: #302828;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    flex-grow: 2;
+    height: 100%;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.sidebar img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.sidebar span {
+    font-size: 16px;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100% ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
